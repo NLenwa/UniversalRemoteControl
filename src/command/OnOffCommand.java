@@ -20,12 +20,10 @@ public class OnOffCommand implements ICommand {
                 case ON->{
                     controlDevice.off();
                     state = OnOffEnum.OFF;
-                    System.out.println("Turned OFF");
                 }
                 case OFF -> {
                     controlDevice.on();
                     state = OnOffEnum.ON;
-                    System.out.println("Turned ON");
                 }
         }
     }

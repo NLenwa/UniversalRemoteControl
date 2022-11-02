@@ -20,12 +20,10 @@ public class PlayPauseCommand implements ICommand {
             case PLAY->{
                 controlDevice.pause();
                 state = PlayPauseEnum.PAUSE;
-                System.out.println("PAUSED");
             }
             case PAUSE -> {
                 controlDevice.play();
                 state = PlayPauseEnum.PLAY;
-                System.out.println("PLAYING");
             }
         }
     }

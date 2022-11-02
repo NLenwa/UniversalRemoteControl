@@ -21,12 +21,10 @@ public class NextPreviousCommand implements ICommand{
             case PREVIOUS->{
                 controlDevice.next();
                 state = NextPreviousEnum.NEXT;
-                System.out.println("Skipping current video*");
             }
             case NEXT -> {
                 controlDevice.previous();
                 state = NextPreviousEnum.PREVIOUS;
-                System.out.println("Loading previous video*");
             }
         }
     }

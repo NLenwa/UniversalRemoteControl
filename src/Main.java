@@ -22,21 +22,40 @@ public class Main {
 
 
 		// TODO: test the functionality by pressing different buttons similar to below
-		mediaPlayerRemote.actionButtonPressed(0);
+//		mediaPlayerRemote.actionButtonPressed(0);
+//		mediaPlayerRemote.actionButtonPressed(1);
+//		mediaPlayerRemote.actionButtonPressed(2);
+//		mediaPlayerRemote.actionButtonPressed(2);
+//		mediaPlayerRemote.actionButtonPressed(1);
+//
+//		mediaPlayerRemote.actionButtonPressed(0);
+//		mediaPlayerRemote.undoButtonPressed();
+//
+//		mediaPlayerRemote.actionButtonPressed(1);
+//		mediaPlayerRemote.undoButtonPressed();
+//
+//		mediaPlayerRemote.actionButtonPressed(2);
+//		mediaPlayerRemote.undoButtonPressed();
+//		mediaPlayerRemote.undoButtonPressed();
+
+
+		// Undo test - START
+		mediaPlayerRemote.actionButtonPressed(1);
 		mediaPlayerRemote.actionButtonPressed(1);
 		mediaPlayerRemote.actionButtonPressed(2);
-		mediaPlayerRemote.actionButtonPressed(2);
+		mediaPlayerRemote.actionButtonPressed(1);
 		mediaPlayerRemote.actionButtonPressed(1);
 
-		mediaPlayerRemote.actionButtonPressed(0);
+		mediaPlayerRemote.undoButtonPressed();
+		mediaPlayerRemote.undoButtonPressed();
+		mediaPlayerRemote.undoButtonPressed();
+		mediaPlayerRemote.undoButtonPressed();
+		mediaPlayerRemote.undoButtonPressed();
+		mediaPlayerRemote.undoButtonPressed();
 		mediaPlayerRemote.undoButtonPressed();
 
-		mediaPlayerRemote.actionButtonPressed(1);
-		mediaPlayerRemote.undoButtonPressed();
+		// Undo test - END
 
-		mediaPlayerRemote.actionButtonPressed(2);
-		mediaPlayerRemote.undoButtonPressed();
-		mediaPlayerRemote.undoButtonPressed();
 	}
 }
 
