@@ -31,6 +31,13 @@ public class OnOffCommand implements ICommand {
     @Override
     public void undo() {
         execute();
-        System.out.println("Undid ON/OFF");
+//        switch (state) {
+//            case ON -> {
+//                System.out.println("Undo: now On");
+//            }
+//            case OFF -> {
+//                System.out.println("Undo: now Off");
+//            }
+//        }
     }
 }

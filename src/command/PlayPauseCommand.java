@@ -31,6 +31,13 @@ public class PlayPauseCommand implements ICommand {
     @Override
     public void undo() {
         execute();
-        System.out.println("Undid RESUMED/PAUSED");
+//        switch (state) {
+//            case PLAY->{
+//                System.out.println("Undo: now Playing");
+//            }
+//            case PAUSE -> {
+//                System.out.println("Undo: now Paused");
+//            }
+//        }
     }
 }

@@ -32,6 +32,13 @@ public class NextPreviousCommand implements ICommand{
     @Override
     public void undo() {
         execute();
-        System.out.println("Undid ON/OFF");
+//        switch (state) {
+//            case PREVIOUS->{
+//                System.out.println("Undo: now Previous");
+//            }
+//            case NEXT -> {
+//                System.out.println("Undo: now Next");
+//            }
+//        }
     }
 }

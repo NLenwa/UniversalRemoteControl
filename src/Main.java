@@ -44,6 +44,7 @@ public class Main {
 		mediaPlayerRemote.actionButtonPressed(1);
 		mediaPlayerRemote.actionButtonPressed(2);
 		mediaPlayerRemote.actionButtonPressed(1);
+		mediaPlayerRemote.actionButtonPressed(0);
 		mediaPlayerRemote.actionButtonPressed(1);
 
 		mediaPlayerRemote.undoButtonPressed();
@@ -53,7 +54,8 @@ public class Main {
 		mediaPlayerRemote.undoButtonPressed();
 		mediaPlayerRemote.undoButtonPressed();
 		mediaPlayerRemote.undoButtonPressed();
-
+		mediaPlayerRemote.undoButtonPressed();
+		mediaPlayerRemote.undoButtonPressed();
 		// Undo test - END
 
 	}
